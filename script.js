@@ -15,7 +15,7 @@
 // }
 
 (async () => {
-        const response = await fetch('https://google.com');
+        const response = await fetch('https://www.dnewme.com');
         const text = await response.text();
         console.log(text);
     }
